@@ -1,0 +1,75 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, ins, kbd, q, s, samp,
+small, strike, sub, var,
+dl, dd, dt, ul, ol, li,
+fieldset, form, table, caption, tbody,
+tfoot, thead, tr, th, td, header, section,
+footer, article, details {
+padding: 0; margin: 0; border: 0; outline: 0;
+font-family: inherit; font-style: inherit; font-size:
+100%; font-weight: inherit; vertical-align: baseline;
+}
+
+
+@font-face{
+  font-family:"Baskerville";
+}
+
+#img id="flashlight"{
+    content:url(https://cdn.glitch.global/98ed719e-9a2e-4d1b-8089-263bad341585/flashight1.png?v=1644255547087);
+    padding:0px 0px 0px 500px;
+}
+
+body{
+  background-color: #181A18;
+  left:15px;
+  font-family:Baskerville, serif;
+  line-height: auto;
+  padding: 120px 5px 5px 25px;
+  margin:-3px 70px 0;
+}
+
+span{
+  letter-spacing: -20px;
+}
+h1{
+  background-color: #181A18;
+  color:#f1f1f1;
+  left:40px;
+  font-family:Baskerville, serif;
+  font-size: 80px;
+  line-height: auto;
+  padding: 100px 10px 10px 350px;
+  margin:-3px 70px 0;
+}
+
+p{
+  font-size:20px;
+  padding: 100px 30px 10px 350px;
+  color:#f1f1f1;
+}
+
+.hovertext {
+  display: none;
+    padding: 100px 20px 10px 50px;
+}
+
+.text:hover + .hovertext {
+  display: block;
+  color: #000000;
+}
+
+#text{
+  background-color: #181A18;
+  color:#000000;
+  font-family:Baskerville, serif;
+  font-size: 40px;
+  padding:100px 0px 0px 500px;
+}
+
+#img id="flashlight1"{
+    content:url(https://cdn.glitch.global/98ed719e-9a2e-4d1b-8089-263bad341585/flashight1.png?v=1644255547087);
+    padding:200px 10px 0px 500px;
+}
